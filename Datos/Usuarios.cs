@@ -10,7 +10,7 @@ namespace Datos
 {
     public class Usuarios
     {
-        private string _connectionString;
+        private readonly string _connectionString;
 
         public Usuarios()
         {

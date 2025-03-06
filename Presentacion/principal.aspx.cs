@@ -13,5 +13,10 @@ namespace Presentacion
 		{
 
 		}
-	}
+
+        protected void btnProveedores_Click(object sender, EventArgs e)
+        {
+			Response.Redirect("Proveedores/index.aspx");
+        }
+    }
 }
